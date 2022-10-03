@@ -41,7 +41,7 @@ body{
 .Sign_up_content_container{
     background-color: white;
     width: 60vw;
-    height: 75vw;
+    height: 60vw;
     position: absolute;
     margin-left: 20vw;
     margin-top: -85vw;
@@ -74,7 +74,7 @@ body{
 }
 
 
-#name{
+#sign_up_text_input_content input{
     width: 42vw;
     height: 3.3vw;
     border-radius: 1vw;
@@ -84,35 +84,7 @@ body{
     padding-left: 1vw;
 }
 
-#email{
-    width: 42vw;
-    height: 3.3vw;
-    border-radius: 1vw;
-    font-size: 1.2vw;
-    border: 1.8px solid;
-    border-color:rgb(190, 190, 190) ;
-    padding-left: 1vw;
-}
 
-#pw{
-    width: 42vw;
-    height: 3.3vw;
-    border-radius: 1vw;
-    font-size: 1.2vw;
-    border: 1.8px solid;
-    border-color:rgb(190, 190, 190) ;
-    padding-left: 1vw;
-}
-
-#pw2{
-    width: 42vw;
-    height: 3.3vw;
-    border-radius: 1vw;
-    font-size: 1.2vw;
-    border: 1.8px solid;
-    border-color:rgb(190, 190, 190) ;
-    padding-left: 1vw;
-}
 
 #sign_up_input_text{
     padding-bottom: 0.6vw;

@@ -60,7 +60,6 @@ export default function Sign_Up() {
         }
       );
     };
-  
     return (
       <Formik //formik를 통한 데이터 전달
         initialValues={{
@@ -157,14 +156,6 @@ export default function Sign_Up() {
                       <div className="error-message">
                         {errors.pw2}
                       </div>
-                    </div>
-                    <div className="Sign_up_same_line2">
-                      준비하시는 기능사를 선택해주세요 <a>(선택)</a>
-                    </div>
-                    <div className="Sign_up_checkbox_container">
-                      <input id="sign_up_checkbox_array" type="checkbox" value="drink" /><a>조주기능사</a>
-                      <input id="sign_up_checkbox_array" type="checkbox" value="pastry" /><a>제과기능사</a>
-                      <input id="sign_up_checkbox_array" type="checkbox" value="bakery" /><a>제빵기능사</a>
                     </div>
                   </div>
 

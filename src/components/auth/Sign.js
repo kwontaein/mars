@@ -28,30 +28,30 @@ export default function Sign() {
   });
 
   const postLogin = async (values) => {
-    const { pw, email } = values;
-        await axios.post("/login", {//axios를 통해 spring으로 post
-            email,
-            pw,
-         }).then(function (response) {//response로 모든걸 가져옴
+    const {pw, email} = values;
+    await axios.post("/login", {//axios를 통해 spring으로 post
+        email,
+        pw,
+    }).then(function (response) {//response로 모든걸 가져옴
             const lmsg = response.data.name;
             console.log(response.data.name);
             const lmsg2 = response.data.statusMessage;
             console.log(response.data.statusMessage);
-                if(lmsg2 !== "undefined"){
-                    window.alert(lmsg2);
-                    return false;
-                }else{
-                    window.alert(lmsg + "님 어서오세요!", {
-                        position: "top-center",
-                        autoClose: 2000
-                    });
-                    navigate("/");
-                }
+            if( lmsg2 !== undefined && lmsg2 !== 'undefined')  {
+                window.alert(lmsg2);
+                return false;
+            } else {
+                window.alert(lmsg + "님 어서오세요!", {
+                    position: "top-center",
+                    autoClose: 2000
+                });
+                navigate("/");
             }
-        );
-  };
+        }
+    );
+};
 
-    return (
+  return (
     <Formik //formik를 통한 데이터 전달
       initialValues={{
         email: "",
