@@ -34,6 +34,7 @@ export default function LookupCertificate() {
 
   };
 
+
   function Goto_back() {//뒤로
     setBackpage(true);
   }

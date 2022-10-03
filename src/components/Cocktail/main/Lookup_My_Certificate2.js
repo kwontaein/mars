@@ -16,7 +16,7 @@ export default function LookupCertificate() {
     await axios.post("/web/license", {//axios를 통해 spring으로 post
       name: Search_id
     }).then(function (response) {
-          window.alert("조회 성공", {
+      window.alert("조회 성공", {
         position: "top-center",
         autoClose: 2000
       });
@@ -26,13 +26,14 @@ export default function LookupCertificate() {
     }
     )
       //실패 시 catch 실행
-      .catch(function (error) {
-        window.alert("아이디 및 성함을 확인해주세요.", {
-          position: "top-center",
+        .catch(function (error) {
+          window.alert("아이디 및 성함을 확인해주세요.", {
+            position: "top-center",
+          });
         });
-      });
 
   };
+
 
   function Goto_back() {//뒤로
     setBackpage(true);
