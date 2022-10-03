@@ -1,0 +1,183 @@
+#Exam_header_text{
+    font-size: 1.9vw;
+    font-weight: 550;
+}
+
+
+#Exam_btn_items{
+    font-size: 1.8vw;
+}
+
+#Exam_btn_items button{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-left: 0.2vw;
+    margin-right: 1.2vw;
+    font-size: 1.8vw;
+}
+
+#exam_top_txt{
+    background-color:#2F2855;
+    width: 40vw;
+    height: 3.2vw;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.2vw;
+    font-weight: 550;
+    margin-bottom: 2vw;
+    border-radius: 0.5vw;
+    padding-top: 0.15vw;
+    padding-bottom: 0.35vw;
+    margin-bottom: 5vw;
+    transition: 0.5s;
+}
+
+#Test_Exam_scroe{
+    color: blue;
+    padding-top: 0.6vw;
+}
+
+#Commentary{
+    font-size: 1.5vw;
+    font-weight: 550;
+    margin-top: 3vw;
+}
+
+
+.Test_Result_Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Result_content_container{
+    width: 55vw;
+    height: 65vw;
+    margin-top: -10vw;
+    margin-left: -15vw;
+    background-color: #FFFFFF;
+    box-shadow: 1vw 1vw 5vw #c5c5c5;
+    text-align: center;
+    opacity: 0;
+    animation: opacity_effect 0.6s ease 0.7s forwards;
+}
+
+.Result_top_text{
+    width: 55vw;
+    height: 8vw;
+    background-color: #2F2855;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3vw;
+    font-weight: 550;
+    line-height: 8vw;
+}
+
+
+#result_top_text1{
+    margin-top: 3.5vw;
+    font-size: 2vw;
+    font-weight: 550;
+    color: #5f5f5f;
+}
+
+#result_top_line{
+    width: 37vw;
+    height: 0.2vw;
+    opacity: 0.5;
+}
+
+#result_video_picture{
+    width: 37vw;
+    margin-top: 2vw;
+}
+
+
+#stamp_img{
+    width: 33vw;
+    position: absolute;
+    margin-top: 12vw;
+    margin-left: -28vw;
+    transform: rotate(-16.14deg);
+    opacity: 0;  
+    animation: stamp 1.7s ease 2.5s forwards;
+}
+
+#final_score{
+    font-weight: 550;
+    font-size: 1.9vw;
+    margin-top: 5vw;
+    margin-left: 32vw;
+    opacity: 0;
+    animation : quickslide2 0.2s ease-out 1.3s forwards;
+}
+
+
+#result_bottom_text{
+    font-size: 1.8vw;
+    font-weight: 550;
+    margin-top: 0.7vw;
+    opacity: 0;
+    animation : quickslide 0.3s ease-out 1.5s forwards;
+}
+
+
+#result_bottom_text a{
+    color :#312b4e;
+}
+
+#result_bottom_text span{
+    font-size: 2.5vw;
+}
+
+#result_save{
+    margin-left: 34vw;
+    margin-top: 3vw;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 0.3vw;
+    background-color: #2F2855;
+    color: #FFFFFF;
+}
+
+#result_save:hover{
+    background-color: #413877;
+}
+
+
+@keyframes stamp {
+    from{
+        position: absolute;
+        margin-top: 12vw;
+        margin-left: -28vw;
+        box-shadow:  0.5vw 0.5vw 2vw #0a0a0a;
+        transform: rotate(-16.14deg);
+    }to{
+        position: absolute;
+        margin-top: 13vw;
+        margin-left: -29vw;
+        transform: rotate(-16.14deg);
+        opacity: 0.9;
+    }
+}
+
+@keyframes quickslide {
+    from{
+        margin-left: -70vw;
+        opacity: 0.7;
+    }to{
+        margin-left: 0vw;
+        opacity: 1;
+    }
+}
+
+
+@keyframes quickslide2 {
+    from{
+        margin-left: -70vw;
+        opacity: 0.7;
+    }to{
+        margin-left: 32vw;
+        opacity: 1;
+    }
+}

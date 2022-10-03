@@ -1,0 +1,98 @@
+.Intruduce_container{
+    padding-top: 12vw;
+    padding-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#vws_txt{
+    width: 40vw;
+    left: -60vw;
+    position: absolute;
+    animation: slide 0.8s ease 0.3s forwards;
+}
+
+@keyframes slide{
+    from{
+        left: -40vw;
+        opacity: 0;
+    }
+    to{
+        left: 15vw;
+        opacity: 1;
+    }
+}
+
+@keyframes opacity_effect {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes backslide {
+    from{
+        left: 15vw;
+        opacity: 1;
+    }
+    to{
+        left: -40vw;
+        opacity: 0;
+    }
+}
+
+#intruduce_video{
+    width: 70vw;
+    height: 40vw;
+    margin-top: 20vw;
+    opacity: 0;
+    animation: opacity_effect 0.8s ease-out 0.8s forwards;
+}
+
+
+.Content_about{
+    margin-top: 8vw;
+    color: rgb(48, 40, 88);
+    font-size: 2.2vw;
+    text-align: center;
+    margin-left: -15vw;
+    font-weight: 550;
+    animation: opacity_effect 0.8s ease-out 0.9s forwards;
+}
+
+.Content_about2{
+    margin-top: 0.8vw;
+    color: rgb(48, 40, 88);
+    font-size: 3vw;
+    text-align: center;
+    margin-left: -15vw;
+    font-weight: 550;
+    animation: opacity_effect 0.8s ease-out 1.2s forwards;
+}
+
+/*비디오 이미지*/
+.Video_img_contaioner{
+    display: flex;
+    flex-direction: row;
+}
+
+#video_img{
+    width: 33vw;
+    padding-right: 4vw;
+    padding-top: 8vw;
+}
+
+.Content_about3{
+    margin-top: 10vw;
+    color: rgb(48, 40, 88);
+    font-size: 2.6vw;
+    text-align: center;
+    margin-left: -15vw;
+    font-weight: 550;
+}
+
+
+

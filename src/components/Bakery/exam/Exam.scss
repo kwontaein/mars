@@ -1,0 +1,74 @@
+.Exam_container{
+    padding-top: 12vw;
+    padding-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#exam_top_line{
+    width: 70vw;
+    margin-left: -15vw;
+    margin-bottom: 2vw;
+    padding-bottom: 1vw;
+}
+
+#exam_top_mini_txt{
+    margin-left: -15vw;
+    color: #2F2855;
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
+}
+
+#bakery_exam_top_txt2{
+    background-color:#2F2855;
+    width: 26vw;
+    height: 3vw;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.3vw;
+    font-weight: 550;
+    margin-bottom: 2vw;
+    margin-left: -15vw;
+    border-radius: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin-bottom: 5vw;
+    transition: 0.5s;
+}
+
+#exam_screen{
+    width: 68vw;
+    padding-top: 5vw;
+}
+
+.exam_button{
+    display: flex;
+    flex-direction: row;
+    padding-left: 18vw;
+    padding-top: 5vw;
+}
+
+#exam_items{
+    width: 15vw;
+}
+
+#Exam_btn{
+    width: 30vw;
+    border: none;
+    margin-top: 2vw;
+    margin-left: -15vw;
+}
+
+.Column_flex_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#chose_hover_btn{
+    background-color: transparent;
+    border: none;
+}

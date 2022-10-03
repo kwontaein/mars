@@ -1,0 +1,107 @@
+.Rank_container{
+    padding-top: 12vw;
+    padding-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#rank_top_txt{
+    background-color:#2F2855;
+    width: 40vw;
+    height: 3.2vw;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.2vw;
+    font-weight: 550;
+    margin-bottom: 2vw;
+    border-radius: 0.5556vw;
+    padding-top: 0.15vw;
+    padding-bottom: 0.35vw;
+    transition: 0.5s;
+}
+
+
+.My_Rank_txt{
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.3vw;
+    font-weight: 550;  
+}
+
+.My_Rank_txt div{
+    padding-left: 0.5vw;
+}
+
+
+
+.My_Rank_txt div{
+    animation: Rank_change 1s ease 3s forwards;
+}
+
+@keyframes Rank_change {
+    from{
+
+    }to{
+        background-color: #797499;
+        color: #FFFFFF;
+    }
+}
+
+
+
+.app_promotion_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.app_promotion_inner{
+    display: flex;
+    flex-direction: column;
+}
+
+#app_scren{
+    width: 35vw;
+    margin-top: 5vw;
+    margin-left: -4vw;
+    animation: transopacity 1.1s ease-out 1.5s forwards;
+}
+
+@keyframes transopacity {
+    0%{
+        transform: rotate(0deg);
+    }33%{
+        transform: rotate(2deg);
+    }66%{
+        transform: rotate(-2deg);
+    }100%{
+        transform: rotate(0deg);
+    }
+}
+
+#vws_app{
+    width: 25vw;
+    margin-left: 70vw;
+    margin-top: 20vw;
+    animation: slide2 1s ease 0.2s forwards;
+}
+
+#QR_img{
+    width: 20vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    opacity: 0;
+    animation :opacity_effect 1s ease 0.5s forwards
+}
+
+
+@keyframes slide2 {
+    from{
+        opacity: 0;
+        margin-left: 70vw;
+    }to{
+        opacity: 1;
+        margin-left: 5vw;
+    }
+}

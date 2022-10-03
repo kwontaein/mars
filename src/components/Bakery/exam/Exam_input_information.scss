@@ -1,0 +1,106 @@
+.Exam_Guide_container{
+    text-align: center;
+    margin-top: 4vw;   
+    margin-left: -15vw;
+}
+
+#exam_guide_background{
+    width: 40vw;
+}
+
+#Guide_Exam_Mars_logo{
+    width: 8vw;
+    position: absolute;
+    margin-top: -5vw;
+    margin-left: -5vw;
+}
+
+#guide_exam_type{
+    position: absolute;
+    font-size: 3.3vw;
+    font-weight: 550;
+    top: 50vw;
+    left: 43.7vw;
+    color: #302858;
+    letter-spacing: 1vw;
+    
+}
+
+
+.Guide_input_name{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+    color:#302858;
+    margin-top: -47vw;
+    margin-left: 30.2vw;    
+}
+
+
+
+.Guide_input_name div{
+    border: 0.4vw solid #302858;
+    margin-left: -0.4vw;
+    color:#302858 ;
+    font-weight: 550;
+    padding-left: 0.4vw;
+    padding-right:0.4vw;
+    font-size: 1.5vw;
+    height: 2.3vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.1vw;
+}
+
+.Guide_input_name input{
+    width: 7vw;
+    border:  none;
+    padding-left: 0.2vw;
+    text-align: center;
+    font-size: 1.3vw; 
+}
+
+.Guide_Date{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5vw;
+    color:#302858;
+    margin-top: -47vw;
+    margin-left: 46.5vw;  
+}
+
+.Guide_Date div{
+    border: 0.4vw solid #302858;
+    margin-left: -0.4vw;
+    color:#302858 ;
+    font-weight: 550;
+    padding-left: 0.45vw;
+    padding-right: 0.45vw;
+    font-size: 1.5vw;
+    height: 2.3vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.1vw;
+}
+
+#guide_date_items{
+    width: 1.3vw;
+    color: darkgray;
+}
+
+#exam_input_next_btn{
+    width: 11vw;
+    height: 3.2vw;
+    position: absolute;
+    background-color: #9C95BF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3vw;
+    font-size: 1.5vw;
+    margin-top: 58vw;
+    margin-left: -26vw;
+}
+
+#exam_input_next_btn:hover{
+    background-color: #968dc2;
+}

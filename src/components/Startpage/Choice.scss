@@ -1,0 +1,186 @@
+.Background_Container{
+    background-color: #0A0546; 
+    width: 100vw;
+    height: 100vw
+}
+
+
+
+#move_img{
+    width: 49vw;
+    padding-left: 50vw;
+    padding-top: 15vw;
+}
+
+.left_contents{
+    margin-left: 10vw;
+    margin-top: -45vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_contents p{
+    color: #FFFFFF;
+    font-size: 1.8vw;
+    margin-left: 1.2vw;
+    font-weight: 520;
+    letter-spacing: 0.7vw;
+}
+
+
+#top_img{
+    width: 27vw;
+    margin-top: 2vw;
+    animation-name: top_img;
+    animation-duration: 3s; //시간
+    animation-iteration-count: infinite; //무한반복
+    animation-direction: alternate; //왔다갔다
+}
+    //둥둥 떠다니는 효과
+    @keyframes top_img {
+        from{
+            padding-top: 0;
+        }to{
+            padding-top: 0.6vw;
+        }
+    }
+
+#mid_img{
+    width: 27vw;
+    margin-left: 0.8vw;
+    margin-top: 1vw;
+}
+
+#Go_To_BARTENDER{
+    margin-top: 3vw;
+    width: 19vw;
+    height: 6vw;
+    padding-top: 0.2vw;
+    padding-bottom:0.2vw;
+    color: #FFFFFF;
+    background-color: #584E96;
+    border-radius: 6vw;
+    border: none;
+    font-size: 1.7vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+#Go_To_BARTENDER:hover{
+    padding-right: 4vw;
+}
+
+
+#Go_To_BARTENDER img{
+    width: 2.8vw;
+    margin-left: 1vw;
+    margin-top: -0.1vw;
+    opacity: 1;
+    margin-right: -3.4vw;
+    display: inline-block;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+#Go_To_BARTENDER:hover img{
+    opacity: 1;
+    margin-left: 1.8vw;
+    transform:rotateZ(-360deg);
+}
+
+
+
+#Go_To_BAKER{
+    margin-top: 3vw;
+    margin-left: 2vw;
+    width: 19vw;
+    height: 6vw;
+    padding-top: 0.2vw;
+    padding-bottom:0.2vw;
+    color: #FFFFFF;
+    background-color: #584E96;
+    border: none;
+    border-radius: 6vw;
+    font-size: 1.7vw;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#Go_To_BAKER:hover{
+    padding-right: 3.5vw;
+}
+
+
+#Go_To_BAKER img{
+    width: 2.8vw;
+    margin-left: 0.3vw;
+    margin-top: -0.1vw;
+    opacity: 1;
+    margin-right: -3.4vw;
+    display: inline-block;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+#Go_To_BAKER:hover img{
+    opacity: 1;
+    margin-top: -0.1VW;
+    margin-left: 0.7vw;
+    transform:rotateZ(-360deg) ;
+}
+
+
+.Signbox_container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-top: -2vw;
+    padding-left: 62vw;
+}
+
+#chose_mid_line{
+    width: 0.15vw;
+    height: 2.4vw;
+}
+
+.Signbox_container img{
+    width: 0.1vw;
+    height: 2.5vw;
+    padding-top:0.6vw;
+}
+
+#Sign_in_button{
+    width: 8vw;
+    color: #FFFFFF;
+    background-color: #0A0546; 
+    border: none;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+}
+
+#Sign_in_button:hover{
+    color: #d8d8d8;
+}
+
+#Goto_Sign_up_button{
+    width: 10vw;
+    height: 3.5vw;
+    margin-left: 2vw;
+    color: #FFFFFF;
+    background-color: #584E96;
+    border: none;
+    border-radius: 20vw;
+    font-size: 1.2vw;
+}
+
+
+#Goto_Sign_up_button:hover{
+    background-color: #68609b;
+}
+
+#Arrow_Right{
+    margin-top: 2vw;
+}

@@ -1,0 +1,173 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#Sign_background_img {
+    width: 100vw;
+    height: 102vw;
+}
+
+#background_top_txt {
+    position: absolute;
+    padding-left: 26.5vw;
+    margin-top: -93vw;
+    color: #FFFFFF;
+    font-size: 2.3vw;
+    font-weight: 550;
+}
+
+#close_button {
+    width: 1.1vw;
+    position: absolute;
+    margin-left: 42.3vw;
+    margin-top: 1.8vw;
+}
+
+#Mars_logo2 {
+    position: absolute;
+    width: 12vw;
+    padding-left: 6vw;
+    margin-top: 3.4vw;
+}
+
+.Sign_content_container {
+    background-color: white;
+    width: 45vw;
+    height: 50vw;
+    position: absolute;
+    margin-left: 27.5vw;
+    margin-top: -85vw;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0;
+    animation: opacity_effect 1.2s ease 0.2s forwards;
+}
+
+
+.Sign_in_content {
+    padding-top: 5vw;
+    margin-left: 3.5vw;
+}
+
+
+#sign_in_text {
+    font-size: 2.7vw;
+    font-weight: 550;
+    margin-bottom: 1vw;
+}
+
+
+#text_input_content {
+    padding-top: 2vw;
+    font-size: 1.5vw;
+    color: silver;
+}
+#text_input_content input{
+    width: 38vw;
+    height: 3.5vw;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    border: 1.8px solid;
+    border-color: rgb(190, 190, 190);
+    padding-left: 1vw;
+}
+
+
+#input_text {
+    padding-bottom: 0.6vw;
+    color: rgb(87, 87, 87);
+}
+
+#input_text2 {
+    font-size: 1.1vw;
+    padding-bottom: 0.6vw;
+    color: rgb(87, 87, 87);
+}
+
+.same_line {
+    flex-direction: row;
+    display: flex;
+}
+
+#input_text2 a {
+    color: black;
+    font-weight: 550;
+    margin-left: 0.3vw;
+    text-decoration: none;
+}
+
+#input_text2 a:hover {
+    color: rgb(83, 83, 83);
+}
+
+
+//가리기
+#input_blind {
+    width: 1.71vw;
+    height: 1.42vw;
+    position: absolute;
+    margin-top: 0.5vw;
+    margin-left: 26.5vw;
+    cursor: pointer;
+}
+
+//보이기
+#input_blind2 {
+    width: 2.35vw;
+    height: 2.1vw;
+    position: absolute;
+    margin-top: 0.15vw;
+    margin-left: 26.2vw;
+    cursor: pointer;
+}
+
+#input_blind_text {
+    position: absolute;
+    padding-left: 28.5vw;
+    font-size: 1.6vw;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+
+#guide_txt {
+    color: #AD5757;
+    font-size: 1.2vw;
+    margin-top: 0.3vw;
+    margin-left: 0.5vw;
+    position: absolute;
+}
+
+#login_button {
+    width: 38.7vw;
+    height: 4vw;
+    margin-top: 4vw;
+    border-radius: 2vw;
+    border: none;
+    background-color: #9C95BF;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+#login_button:hover {
+    background-color: #918baf
+}
+
+
+#text_margin {
+    margin-left: 0.2vw;
+    margin-top: 0.7vw;
+    font-size: 1.4vw;
+}
+
+#text_margin2 {
+    margin-left: 11vw;
+    margin-top: 0.6vw;
+    font-size: 1.4vw;
+}
+
+.bottom_text {
+    margin-top: 5vw;
+    text-align: center;
+    margin-left: -3.5vw;
+}

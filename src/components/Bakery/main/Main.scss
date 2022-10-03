@@ -1,0 +1,201 @@
+body{
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+}
+
+.Bakery_Main_Top_Background{
+    width: 100vw;
+    align-items: center;
+
+}
+
+.Bakery_login_profile_container{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 81vw;
+    margin-top: -10.5vw;
+}
+
+.Bakery_login_profile_content{
+    display: flex;
+    flex-direction: column;
+}
+
+#Bakery_login_mode_about{
+    width: 8vw;
+    font-size: 1.4vw;
+    color: #ffffff;
+    text-align: right;
+}
+
+#Bakery_login_mode_about2{
+    width: 8vw;
+    font-size: 1.3vw;
+    color: #fafafa;
+    letter-spacing: -0.1vw;
+    text-align: right;
+}
+
+.Bakery_login_profile_content:hover #Bakery_login_mode_about2{
+    color: #817ca0;
+}
+
+
+
+#Bakery_main_top_background_img{
+    border-radius: 0px 0px 3.4722vw 3.4722vw;
+    box-shadow:  0.1389vw 0.2083vw 0.3472vw rgba(105, 105, 105, 0.9);
+}
+
+.Bakery_Main_Top_Content{
+    position: absolute;
+    margin-top:-25.5vw;
+    width: 100vw;
+    height: 20vh;
+}
+
+#Bakery_Mars_logo{
+    width: 12vw;
+    padding-left: 6vw;
+    margin-bottom: 2vw;
+    cursor: pointer; 
+}
+
+
+.Bakery_Main_Top{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+
+#Bakery_guest_Mode_profile{
+    width: 4.5vw;
+    margin-left: 0.5vw;
+    height: auto;
+    padding-right: 6vw;
+    margin-top: -0.1vw;
+}
+
+.Bakery_Main_Top_Txt{
+    color: white;
+    font-size: 2.3vw;
+    margin-left: 31vw;
+    margin-top: 2.7vw; 
+    font-weight: 550;
+}
+
+#Bakery_icon2{
+    width: 2.3vw;
+    height: 2.2vw;
+    margin-left: 2vw;
+    margin-bottom: 0.2vw;
+}
+
+#Bakery_main_test_button_img{
+    width: 24vw;
+    margin-top: 1.6vw;
+    margin-left: 40vw;
+    background-color: #584E96;
+    border-radius: 5vw;
+    padding-top: 0.6vw;
+    padding-bottom: 0.3vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row; 
+    transition: all 0.5s;
+    box-shadow:  0.1389vw 0.2083vw 0.3472vw rgba(105, 105, 105, 0.9);   
+}
+
+#Bakery_main_test_button_img div{
+    padding-left: 2.6vw;
+    font-weight: 300px;
+    font-size: 1.4vw;
+    padding-top: 0.1vw;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#Bakery_main_test_button_img div::after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    margin-top: -0.2vw;
+    right: -3vw;
+    transition: 0.5s;
+}
+
+// hover 시 div를 옮김
+#Bakery_main_test_button_img:hover div{
+    padding-right: 2vw;
+}
+
+// >>보이게 하는 거
+#Bakery_main_test_button_img:hover div:after{
+    opacity: 1;
+    right: 0;
+}
+
+
+
+
+/*메뉴 바*/
+.Bakery_Menu_bar{
+    position: absolute;
+    width:85vw;
+    height: 8vw;
+    background-color: white;
+    margin-left: 8vw;
+    margin-top: -3.5vw;
+    box-shadow:  0.1389vw 0.2083vw 0.3472vw rgba(105, 105, 105, 0.9);
+    border-radius: 1.3889vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#Bakery_menu_items{
+    width: 18vw;
+    padding-top: 1.5vw;
+    cursor: pointer; 
+}
+
+#Bakery_menu_items2{
+    width: 21vw;
+    height: 5.2vw;
+    padding-top: 1.4vw;
+    padding-left: 1vw;
+    cursor: pointer; 
+}
+
+
+#Bakery_home_icon_contain{
+    background-color: #584E96;
+    border-radius: 2vw;
+    width: 7vw;
+    height: 7vw;
+    margin-top: 0.5vw;
+    margin-left: 77.5vw;
+    cursor: pointer;    
+    transition:all 1.5s ease;
+    position: absolute;
+}
+
+
+
+#Bakery_home_icon{
+    width: 3vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+
+#Bakery_home_icon_contain:hover{
+    background-color: #6a629b;
+    border-radius: 20vw;   
+}

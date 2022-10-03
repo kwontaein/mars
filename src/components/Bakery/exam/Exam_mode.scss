@@ -1,0 +1,60 @@
+.Mode_choice_container{
+    margin-left: -15vw;
+    margin-top: -5vw;
+    text-align: center;
+}
+
+#Mode_choice_img{
+    width: 58vw;
+    height: 75vw;
+}
+
+.Mode_choice_container p{
+   position: absolute;
+   font-size: 2.8vw;
+   font-weight: 550;
+   margin-left: 36vw;
+   margin-top: -61vw;
+   animation: fontcolor_change 2s ease-out 0.5s forwards;
+}
+
+
+@keyframes fontcolor_change {
+    from{
+        color:#7a6eb4;
+    }to{
+        color:#302858;
+    }
+}
+
+.Button_choice_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Button_choice_container button{
+    position: absolute;
+    width: 17vw;
+    height: 4vw;
+    background-color: #9C95BF;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1.6vw;
+    font-weight: 550;
+    border-radius: 2vw;
+    margin-left: 41vw; 
+}
+
+
+#Mode_choice_A{
+    margin-top: -50vw;
+}
+
+#Mode_choice_B{
+    margin-top: -40vw;
+}
+
+
+.Button_choice_container button:hover{
+    background-color:  #7f73bd;
+}

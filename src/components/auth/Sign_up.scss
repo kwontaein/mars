@@ -1,0 +1,269 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#sign_background_img{
+    width: 100vw;
+    height: 102vw;
+}
+
+#background_top_text{
+    position: absolute;
+    padding-left: 26.5vw;
+    margin-top: -93vw;
+    color: #FFFFFF;
+    font-size: 2.3vw;
+    font-weight: 550;
+}
+
+#sign_up_close_button{
+    width: 1.1vw;
+    position: absolute;
+    margin-left: 57vw;
+    margin-top: 2vw;
+}
+
+#Mars_logo2{
+    position: absolute;
+    width: 12vw;
+    padding-left: 6vw;
+    margin-top: 3.4vw;
+}
+
+.Sign_up_top_text{
+    margin-top: 2vw;
+    text-align: center;
+    margin-left: -5.7vw; 
+}
+
+
+.Sign_up_content_container{
+    background-color: white;
+    width: 60vw;
+    height: 75vw;
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: -85vw;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0;
+    animation: opacity_effect 1.2s ease 0.2s forwards;
+}
+
+.Sign_up_content{
+    padding-top: 5vw;
+    margin-left: 8.2vw; 
+}
+
+#sign_up_text{
+    font-size: 2.7vw;
+    font-weight: 550;
+    margin-bottom: 1vw; 
+}
+
+
+#sign_up_text_input_content{
+    padding-top: 1vw;
+    font-size: 1.5vw;
+    color: silver;
+}
+#sign_up_text_input_content2{
+    padding-top: 2vw;
+    font-size: 1.5vw;
+    color: silver;
+}
+
+
+#name{
+    width: 42vw;
+    height: 3.3vw;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    border: 1.8px solid;
+    border-color:rgb(190, 190, 190) ;
+    padding-left: 1vw;
+}
+
+#email{
+    width: 42vw;
+    height: 3.3vw;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    border: 1.8px solid;
+    border-color:rgb(190, 190, 190) ;
+    padding-left: 1vw;
+}
+
+#pw{
+    width: 42vw;
+    height: 3.3vw;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    border: 1.8px solid;
+    border-color:rgb(190, 190, 190) ;
+    padding-left: 1vw;
+}
+
+#pw2{
+    width: 42vw;
+    height: 3.3vw;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    border: 1.8px solid;
+    border-color:rgb(190, 190, 190) ;
+    padding-left: 1vw;
+}
+
+#sign_up_input_text{
+    padding-bottom: 0.6vw;
+    color:rgb(87, 87, 87);
+    font-size: 1.3vw;
+}
+
+#sign_up_input_text2{    
+    font-size: 1.5vw;   
+    padding-bottom: 0.6vw;
+    margin-left: -1.5vw;
+}
+
+#sign_up_input_text3{    
+    font-size: 1.2vw;   
+    padding-bottom: 0.6vw;
+    color:rgb(87, 87, 87);
+    margin-left: -5.2vw;
+}
+
+#sign_up_input_text3 a{
+    color: #000000;
+    margin-left: 0.2vw;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.Sign_up_same_line{
+    flex-direction: row;
+    display: flex;
+}
+
+.Sign_up_same_line2{
+    flex-direction: row;
+    display: flex;
+    font-size: 1.2vw;
+    color: #000000;
+    margin-top: 3vw;
+    margin-left: 0.5vw;
+}
+
+.Sign_up_checkbox_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    color: #000000;
+}
+
+.Sign_up_checkbox_container a{
+    margin-right: 2vw;
+}
+
+
+#sign_up_checkbox_array{
+    margin-left: 1vw;
+    margin-right: 0.8vw;
+    width: 1vw;
+    cursor: pointer;
+}
+
+
+
+.Sign_up_same_line2 a{
+    color:rgb(158, 158, 158);
+    font-weight: 550;
+    margin-left: 0.5vw;
+}
+
+#sign_up_input_text2 a{
+    color: black;
+    font-weight: 550;
+    margin-left: 0.4vw;
+}
+
+#sign_up_input_text2 a:hover{
+    color: rgb(83, 83, 83);
+}
+
+//가리기
+#sign_up_input_blind{
+    width: 1.63vw;
+    height: 1.43vw;
+    position: absolute;
+    margin-top: 0.16vw;
+    margin-left: 31.953vw;
+    cursor: pointer;
+}
+//보이기
+#sign_up_input_blind2{
+    width: 2.15vw;
+    height: 2.1vw;
+    position: absolute;
+    margin-top: -0.2vw;
+    margin-left: 31.75vw;
+    cursor: pointer;
+}
+
+#sign_up_input_blind_text{
+    position: absolute;
+    padding-left: 34vw;
+    font-size: 1.4vw;
+    margin-top: -0.2vw;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+
+#sign_up_guide_text{
+    color: #AD5757;
+    font-size: 1vw;
+    margin-top: 0.3vw;
+    margin-left: 0.5vw;
+    position: absolute;
+}
+
+#sign_up_button{
+    width: 20vw;
+    height: 4vw;
+    margin-top: 4vw;
+    border-radius : 2vw;
+    border:none;
+    background-color: #9C95BF;
+    color: white;
+    font-size: 1.2vw;
+    margin-left: 11.5vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#sign_up_button:hover{
+    background-color: #FFFFFF;
+    color: #9790b8;
+    font-weight: 550;
+    border: 1.5px  solid #9790b8;
+}
+
+#sign_up_text_margin{
+    margin-left: 0.2vw;
+    margin-top: 0.7vw;
+    font-size: 1.4vw;
+}
+
+#sign_up_text_margin2{
+    margin-left: 11vw;
+    margin-top: 0.6vw;
+    font-size: 1.4vw;
+}
+
+.Sign_up_bottom_text{
+    margin-top: 3vw;
+    text-align: center;
+    margin-left: -3.5vw;
+}
+

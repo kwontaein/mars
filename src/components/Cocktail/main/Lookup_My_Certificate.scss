@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400&family=Press+Start+2P&display=swap');
+.Lookup_Container{
+    padding-top: 12vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Lookup_content_container{
+    width: 55vw;
+    height: 45vw;
+    box-shadow: 1vw 1vw 5vw #c5c5c5;
+    text-align: center;
+    opacity: 0;
+    animation: opacity_effect 0.6s ease 0.7s forwards;
+    background-image: url("../../../../public/Main_cocktail/Lookup_Certificate/background_picture.png");
+    background-size: 55vw;
+}
+
+.Lookup_top_text{
+    width: 55vw;
+    height: 8vw;
+    background-color: #2F2855;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3vw;
+    font-weight: 550;
+    line-height: 8vw;
+}
+
+#lookup_id_name{
+    margin-left: -21vw;
+    margin-top: 8vw;
+    word-spacing: -0.1vw;
+}
+
+
+#lookup_input_id{
+    width: 38vw;
+    height: 4vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    border: none;
+    border-color:rgb(190, 190, 190) ;
+    padding-left: 1vw;
+}
+
+.Lookup_button_line{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7vw;
+    justify-content: center;
+}
+
+.Lookup_button_line button{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 12.5vw;
+    height: 4vw;
+    border-radius: 2vw;
+    border: none;
+    font-size: 1.3vw;
+
+}
+
+#search_btn{
+    background-color: #9C95BF;
+    color: #FFFFFF;
+}
+
+#search_btn:hover{
+    background-color: #948ac2;
+    color: #FFFFFF;
+}
+
+
+
+#cancle_btn{
+    color:#9C95BF;
+    background-color: #eeeeee;
+    border: 0.2vw solid #9C95BF;
+    font-weight: 550;
+}
+
+#cancle_btn:hover{
+    color: #4a30c0;
+    border: 0.2vw solid #4a30c0;
+}
+
+
+
+
+
+//조회 이후 
+
+#user_profile_img{
+    width: 12vw;
+    margin-top: 4vw;
+    padding-bottom: 3vw;
+}
+
+#lookup_mid_text{
+    font-size: 2.3vw;
+    font-weight: 550;
+}
+
+#lookup_mid_text a{
+    color: #2F2855;
+    font-size: 2.5vw;
+}
+
+#lookup_Date{
+    margin-top: 3vw;
+    font-size: 2vw;
+}
+
+#lookup_close_btn{
+    margin-top: 1vw;
+    margin-left: 40vw;
+    width: 8vw;
+    height: 3.2vw;
+    border-radius: 2vw;
+    border:none;
+    color: #FFFFFF;
+    background-color: #929292;
+}
+
+#lookup_close_btn:hover{
+    background-color: #9b9b9b;
+}
