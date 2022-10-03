@@ -142,85 +142,85 @@ function add1(e){
   var id = (e.target.value);
   switch(Num){
     case 0:                 // 1번 문제
-      if(Num==0 && id== 2)
+      if(Num===0 && id=== 2)
       scch(sc+5);
       console.log(sc);
     break;
     case 1:                 // 2번 
-      if(Num==1 && id== 3)
+      if(Num===1 && id=== 3)
       scch(sc+5);
     break;
     case 2:                 // 3번 
-      if(Num==2 && id== 2)
+      if(Num===2 && id=== 2)
       scch(sc+5);
     break;
     case 3:                 // 4번 
-      if(Num==3 && id== 2)
+      if(Num===3 && id=== 2)
       scch(sc+5);
     break;
     case 4:                 // 5번 
-      if(Num==4 && id== 1)
+      if(Num===4 && id=== 1)
       scch(sc+5);
     break;
     case 5:                 // 6번 
-      if(Num==5 && id== 4)
+      if(Num===5 && id=== 4)
       scch(sc+5);
     break;
     case 6:                 // 7번 
-      if(Num==6 && id== 1)
+      if(Num===6 && id=== 1)
       scch(sc+5);
     break;
     case 7:                 // 8번 
-      if(Num==7 && id== 2)
+      if(Num===7 && id=== 2)
       scch(sc+5);
     break;
     case 8:                 // 9번 
-      if(Num==8 && id== 2)
+      if(Num===8 && id=== 2)
       scch(sc+5);
     break;
     case 9:                 // 10번 
-      if(Num==9 && id== 3)
+      if(Num===9 && id=== 3)
       scch(sc+5);
     break;
     case 10:                 // 11번 문제
-    if(Num==10 && id== 1)
+    if(Num===10 && id=== 1)
     scch(sc+5);
     console.log(sc);
   break;
   case 11:                 // 12번 
-    if(Num==11 && id== 4)
+    if(Num===11 && id=== 4)
     scch(sc+5);
   break;
   case 12:                 // 13번 
-    if(Num==12 && id== 4)
+    if(Num===12 && id=== 4)
     scch(sc+5);
   break;
   case 13:                 // 14번 
-    if(Num==13 && id== 3)
+    if(Num===13 && id=== 3)
     scch(sc+5);
   break;
   case 14:                 // 15번 
-    if(Num==14 && id== 4)
+    if(Num===14 && id=== 4)
     scch(sc+5);
   break;
   case 15:                 // 16번 
-    if(Num==15 && id== 4)
+    if(Num===15 && id=== 4)
     scch(sc+5);
   break;
   case 16:                 // 17번 
-    if(Num==16 && id== 3)
+    if(Num===16 && id=== 3)
     scch(sc+5);
   break;
   case 17:                 // 18번 
-    if(Num==17 && id== 3)
+    if(Num===17 && id=== 3)
     scch(sc+5);
   break;
   case 18:                 // 19번 
-    if(Num==18 && id== 1)
+    if(Num===18 && id=== 1)
     scch(sc+5);
   break;
   case 19:                 // 20번 
-    if(Num==19 && id== 4)
+    if(Num===19 && id=== 4)
     scch(sc+5);
   break;
     

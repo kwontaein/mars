@@ -1,3 +1,4 @@
+
 body{
     width: 100vw;
     height: 100vw;
@@ -14,7 +15,7 @@ body{
     position:absolute;
     display: flex;
     flex-direction: row;
-    margin-left: 81vw;
+    margin-left: 69vw;
     margin-top: -10.5vw;
 }
 
@@ -24,24 +25,35 @@ body{
 }
 
 #Bakery_login_mode_about{
-    width: 8vw;
+    width: 20vw;
     font-size: 1.4vw;
     color: #ffffff;
     text-align: right;
 }
 
 #Bakery_login_mode_about2{
-    width: 8vw;
+    width: 20vw;
     font-size: 1.3vw;
     color: #fafafa;
     letter-spacing: -0.1vw;
     text-align: right;
 }
 
+
+
 .Bakery_login_profile_content:hover #Bakery_login_mode_about2{
     color: #817ca0;
 }
 
+
+#bakery_current_states{
+    font-size: 1.4vw;
+    background-color:transparent ;
+    font-weight: 550;
+    color: #ffffff;
+    border: none;
+    margin-right: -0.8vw;
+}
 
 
 #Bakery_main_top_background_img{
@@ -199,3 +211,8 @@ body{
     background-color: #6a629b;
     border-radius: 20vw;   
 }
+
+
+
+
+

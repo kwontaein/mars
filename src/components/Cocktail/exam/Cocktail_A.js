@@ -31,7 +31,7 @@ export default function CocktailA({name}) {
     "리슬링(Riesling)",
     "양조주(Fermented Liquor)",
     "거의 전 지역에서 와인이 생산된다.",
-    "증류주의 일종이며, 진(Gin)의 종류이다.",
+    "Sloe gin",
     "-1~3℃",
     "산미구엘(San Miguel)",
     "드람부이(Drambuie)",
@@ -53,7 +53,7 @@ export default function CocktailA({name}) {
     "메를로(Merlot)",
     "증류주(Distilled Liquor)",
     "지명도가 높은 와인산지로는 피에몬테, 토스카나, 베네토 등이 있다.",
-    "보드카(Vodka)에 그레나딘 시럽을 첨가한 것이다.",
+    "KahLua",
     "8~10℃",
     "호가든(Hoegaarden)",
     "샤르트뢰즈(Chartreuse)",
@@ -75,7 +75,7 @@ export default function CocktailA({name}) {
     "삐노누아(Pinot Noir)",
     "혼성주(Liqueur)",
     "이탈리아 와인 등급체계는 5등급이다.",
-    "아주 천천히 분위기 있게 먹는 칵테일이다.",
+    "Kummel",
     "12~14℃",
     "람빅(Lambic)",
     "베네딕틴(Benedictine)",
@@ -98,7 +98,7 @@ export default function CocktailA({name}) {
     "카베르네 소비뇽(Cabernet Sauvignon)",
     "아쿠아비트(Aquavit)",
     "네비올로, 산지오베제, 바르베라, 돌체토 포도 품종은 레드와인용으로 사용된다.",
-    "진(Gin)에 야생자두(Sloe Berry)의 성분을 첨가한 것이다.",
+    "Benedictine",
     "16~20℃",
     '포스터스(Foster"s)',
     "체리브랜디(Cherry Brandy)",
@@ -125,66 +125,66 @@ export default function CocktailA({name}) {
     var id = e.target.value;
     switch (Num) {
       case 0: // 1번 문제
-        if (Num == 0 && id == 1) scch(sc + 5);
+        if (Num === 0 && id === 1) scch(sc + 5);
         console.log(sc);
         break;
       case 1: // 2번
-        if (Num == 1 && id == 3) scch(sc + 5);
+        if (Num === 1 && id === 3) scch(sc + 5);
         break;
       case 2: // 3번
-        if (Num == 2 && id == 3) scch(sc + 5);
+        if (Num === 2 && id === 3) scch(sc + 5);
         break;
       case 3: // 4번
-        if (Num == 3 && id == 4) scch(sc + 5);
+        if (Num === 3 && id === 4) scch(sc + 5);
         break;
       case 4: // 5번
-        if (Num == 4 && id == 1) scch(sc + 5);
+        if (Num === 4 && id === 1) scch(sc + 5);
         break;
       case 5: // 6번
-        if (Num == 5 && id == 2) scch(sc + 5);
+        if (Num === 5 && id === 2) scch(sc + 5);
         break;
       case 6: // 7번
-        if (Num == 6 && id == 2) scch(sc + 5);
+        if (Num === 6 && id === 2) scch(sc + 5);
         break;
       case 7: // 8번
-        if (Num == 7 && id == 2) scch(sc + 5);
+        if (Num === 7 && id === 2) scch(sc + 5);
         break;
       case 8: // 9번
-        if (Num == 8 && id == 1) scch(sc + 5);
+        if (Num === 8 && id === 1) scch(sc + 5);
         break;
       case 9: // 10번
-        if (Num == 9 && id == 3) scch(sc + 5);
+        if (Num === 9 && id === 3) scch(sc + 5);
         break;
       case 10: // 11번 문제
-        if (Num == 10 && id == 4) scch(sc + 5);
+        if (Num === 10 && id === 4) scch(sc + 5);
         console.log(sc);
         break;
       case 11: // 12번
-        if (Num == 11 && id == 1) scch(sc + 5);
+        if (Num === 11 && id === 1) scch(sc + 5);
         break;
       case 12: // 13번
-        if (Num == 12 && id == 2) scch(sc + 5);
+        if (Num === 12 && id === 2) scch(sc + 5);
         break;
       case 13: // 14번
-        if (Num == 13 && id == 4) scch(sc + 5);
+        if (Num === 13 && id === 4) scch(sc + 5);
         break;
       case 14: // 15번
-        if (Num == 14 && id == 4) scch(sc + 5);
+        if (Num === 14 && id === 4) scch(sc + 5);
         break;
       case 15: // 16번
-        if (Num == 15 && id == 3) scch(sc + 5);
+        if (Num === 15 && id === 3) scch(sc + 5);
         break;
       case 16: // 17번
-        if (Num == 16 && id == 3) scch(sc + 5);
+        if (Num === 16 && id === 3) scch(sc + 5);
         break;
       case 17: // 18번
-        if (Num == 17 && id == 2) scch(sc + 5);
+        if (Num === 17 && id === 2) scch(sc + 5);
         break;
       case 18: // 19번
-        if (Num == 18 && id == 2) scch(sc + 5);
+        if (Num === 18 && id === 2) scch(sc + 5);
         break;
       case 19: // 20번
-        if (Num == 19 && id == 1) scch(sc + 5);
+        if (Num === 19 && id === 1) scch(sc + 5);
         break;
     }
   }
@@ -192,9 +192,6 @@ export default function CocktailA({name}) {
 
    const[Result_save, setResult_save] =useState(false);
 
-   function toggleTestPage(){
-    setResult_save(true);
-   }
 
 
   return (
@@ -212,13 +209,13 @@ export default function CocktailA({name}) {
        <p id="Exam_btn_items"><button onClick={add1} value={3}>3 </button> {ans3[Num]}</p>
       
        <p id="Exam_btn_items"><button onClick={add1} value={4}>4 </button> {ans4[Num]}</p>
-
+  
       </header>
 
       
     </div>
     
-  : <TestResult name={name} score={sc} mode="cocktail"/>
+  : <TestResult name={name} score={sc} mode="cocktail"/> 
   }
    </div>
   );

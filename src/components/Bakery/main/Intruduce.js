@@ -18,7 +18,7 @@ export default function Intrucduce(){
                 <img id="video_img"src="./Main_cocktail/Intruduce_img/video_img2.png"></img>
             </div>
             <div>
-            <div className="Content_about3">바텐더와 바리스타의 업무를 직접 경험해보세요</div>
+            <div className="Content_about3">제과 · 제빵기능사 자격증 실습을 직접 경험해보세요</div>
             </div>
         </div>
             )

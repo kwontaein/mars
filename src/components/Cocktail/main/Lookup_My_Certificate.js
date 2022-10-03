@@ -1,10 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import "./Lookup_My_Certificate.scss";
 import Certificate from "./Certificate";
 import axios from "axios";
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 
 export default function LookupCertificate() {
@@ -34,7 +31,6 @@ export default function LookupCertificate() {
 
   };
 
-
   function Goto_back() {//뒤로
     setBackpage(true);
   }
@@ -53,7 +49,6 @@ export default function LookupCertificate() {
       Backpage === false ?
         (Nextpage === false ? (
           <div className="Lookup_Container">
-          <ToastContainer />
             <div className="Lookup_content_container">
               <div className="Lookup_top_text">내 자격증 확인</div>
               <div id="lookup_id_name">아이디 또는 닉네임 입력</div>

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 import { useState } from "react";
 import * as Yup from "yup";
 import { Formik, ErrorMessage } from "formik";
@@ -9,12 +8,18 @@ import axios from "axios";
 import "./Sign.scss";
 import Main from "../Cocktail/main/Main";
 import Main2 from "../Bakery/main/Main";
+import Choice from "../Startpage/Choice"
+import Sign_Up from "./Sign_up";
 
 export default function Sign() {
+
+  const[Name,setName] =useState(undefined);
+  const [Current_page,setCurrent_page] =useState("");
+
   const navigate = useNavigate();
   //PW 숨기기/보기
   const [isRevealPassword, setIsRevealPassword] = useState(false);
-  const [msg ,setMsg] = useState();
+
   //Id, Pw
   const togglePassword = () => {
     setIsRevealPassword((prevState) => !prevState);
@@ -45,13 +50,25 @@ export default function Sign() {
                     position: "top-center",
                     autoClose: 2000
                 });
-                navigate("/");
+                setCurrent_page("Chose_page");
+                setName(lmsg);
             }
         }
     );
 };
 
+function repage_Chose(){
+  setCurrent_page("Chose_page")
+}
+function repage_Sign_up(){
+  setCurrent_page("Sign_up")
+}
+
+  
+
   return (
+    <div>
+      {Current_page==="" ? 
     <Formik //formik를 통한 데이터 전달
       initialValues={{
         email: "",
@@ -63,19 +80,16 @@ export default function Sign() {
     >
       {({values, handleSubmit, handleChange, errors}) => (
         <div className="Sign_container">
-          <ToastContainer />
           <form onSubmit={handleSubmit} autoComplete="off">
-            <Link to="/">
-              <img id="Mars_logo2" src="./main_logo.png"></img>
-            </Link>
+            
+              <img id="Mars_logo2" src="./main_logo.png" onClick={repage_Chose}></img>
+            
             <img id="Sign_background_img" src="./Sign_img/Sign_background.png"></img>
             <div id="background_top_txt">
               여러분의 자격시험 능력을 지금 시험해보세요
             </div>
             <div className="Sign_content_container">
-              <Link to="/">
-                <img id="close_button" src="./Sign_img/back_img.png"></img>
-              </Link>
+                <img id="close_button" src="./Sign_img/back_img.png" onClick={repage_Chose}></img>
               <div className="Sign_in_content">
                 <div id="sign_in_text">로그인</div>
                 <div id="text_input_content">
@@ -121,7 +135,7 @@ export default function Sign() {
                 </button>
                 <div className="bottom_text">
                   <div id="input_text2">
-                    계정을 가지고있지 않습니까? <Link to="/SignUp"><a>회원가입</a></Link>
+                    계정을 가지고있지 않습니까? <a onClick={repage_Sign_up}>회원가입</a>
                   </div>
                 </div>
               </div>
@@ -129,5 +143,7 @@ export default function Sign() {
           </form>
         </div>)}
     </Formik>
+  : Current_page ==="Chose_page" ? <Choice name ={Name}/> : Current_page ==="Sign_up" ?<Sign_Up/> : null}
+  </div>
   );
 }
